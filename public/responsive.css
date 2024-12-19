@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1024px) {
+  .collapse {
+    justify-content: flex-start !important;
+  }
+  .nav-item{
+    margin: 0 10px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+.pad-off{
+padding: 0 !important;
+}
+.margin-off{
+margin:0 !important;
+}
+.contact-number .number {
+  width: 31%;
+  margin-right: 10px;
+}
+.right-bar.mt-3 {
+  right: 38px;
+  top:0;
+  margin: 0 !important;
+}
+.navbar-brand img {
+  max-width: 100px;
+}
+.footer .text-right,.footer p {
+  text-align: center !important;
+  font-size: 10px;
+}
+.right-bar {
+  width: 100%;
+}
+.right-bar .d-flex.align-items-center {
+  justify-content: end;
+}
+.main-panel{
+  padding-top: 70px !important;
+}
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 1440px !important;
+  }
+}
+
+
+
