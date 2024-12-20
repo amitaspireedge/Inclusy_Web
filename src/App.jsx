@@ -1,10 +1,12 @@
 import React from 'react'
-import Home from './pages/Home'
+import Home from './pages/jumper/Home'
 import Login from './pages/Login'
 import Registration from './pages/Registration'
-import JumperDocument from './pages/JumperDocument'
-import ExploreJumper from './pages/ExploreJumper'
+import JumperDocument from './pages/jumper/JumperDocument'
+import ExploreJumper from './pages/jumper/ExploreJumper'
 import LandingPage from './pages/LandingPage'
+import EngagementJumper from './pages/jumper/EngagementJumper'
+import ProfileJumper from './pages/jumper/ProfileJumper'
 export default function App() {
   return (
     <div>
@@ -13,7 +15,9 @@ export default function App() {
       {/* <Login/> */}
       {/* <Registration/> */}
       {/* <JumperDocument/> */}
-      <ExploreJumper/> 
+      {/* <ExploreJumper/>  */}
+      {/* <EngagementJumper/> */}
+      <ProfileJumper/>
 
     </div>
   )

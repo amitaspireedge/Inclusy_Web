@@ -8,9 +8,9 @@ export default function Steps() {
     
   return (
     <Modal show onHide={()=>{}} size="lg" centered>
-      <Modal.Header closeButton>
+      {/* <Modal.Header closeButton>
         <Modal.Title>Step Process</Modal.Title>
-      </Modal.Header>
+      </Modal.Header> */}
       <Modal.Body>
         <div id="steps" className="d-flex">
           {/* Step 1 */}

@@ -1,12 +1,14 @@
 import React from 'react'
-import Navbar from '../components/navbar/Navbar'
-import Footer from '../components/footer/Footer'
-import JumperExploreTile from '../components/jumperExplore/JumperExploreTile'
-import JumperExploreTileHalf from '../components/jumperExplore/JumperExploreTileHalf'
-import JumperExploreDetails from '../components/jumperExplore/JumperExploreDetails'
-import Steps from '../modal/jumperExplore/Steps'
-import UploadCv from '../modal/jumperExplore/UploadCv'
-import GermanKnoledge from '../modal/jumperExplore/GermanKnoledge'
+import Navbar from '../../components/navbar/Navbar'
+import Footer from '../../components/footer/Footer'
+import JumperExploreTile from '../../components/jumperExplore/JumperExploreTile'
+import JumperExploreTileHalf from '../../components/jumperExplore/JumperExploreTileHalf'
+import JumperExploreDetails from '../../components/jumperExplore/JumperExploreDetails'
+import Steps from '../../modal/jumperExplore/Steps'
+import UploadCv from '../../modal/jumperExplore/UploadCv'
+import GermanKnoledge from '../../modal/jumperExplore/GermanKnoledge'
+import Direction from '../../modal/jumperExplore/Direction'
+import ApplicationSubmit from '../../modal/jumperExplore/ApplicationSubmit'
 
 
 export default function ExploreJumper() {
@@ -85,7 +87,9 @@ export default function ExploreJumper() {
     <div className="modals w-full">
       {/* <Steps/> */}
       {/* <UploadCv/> */}
-      <GermanKnoledge/>
+      {/* <GermanKnoledge/> */}
+      {/* <Direction/> */}
+      <ApplicationSubmit/>
     </div>
     </>
   )
