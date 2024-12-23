@@ -30,45 +30,45 @@ export default function JumperInfo() {
 </style>
 
 
-    <div class="">
-          <div class="col-md-3 col-12 p-0">
-            <img src="images/profile.png" style={{borderRadius:"5px"}} class="w-100"/>
-            <div class="position-absolute" style={{bottom:"-5px",left:"-5px"}}><i class="bx bx-pencil p-2 border-radius" style={{borderRadius:"8px", background:"#F4F3F5", color:"#8C1D4B", border:"5px solid #fff", fontSize:"18px"}}></i></div>
+    <div className="">
+          <div className="col-md-3 col-12 p-0">
+            <img src="images/profile.png" style={{borderRadius:"5px"}} className="w-100"/>
+            <div className="position-absolute" style={{bottom:"-5px",left:"-5px"}}><i className="bx bx-pencil p-2 border-radius" style={{borderRadius:"8px", background:"#F4F3F5", color:"#8C1D4B", border:"5px solid #fff", fontSize:"18px"}}></i></div>
           </div>
-          <div class="col-md-8 col-12 mt-4 p-0 pl-4">
+          <div className="col-md-8 col-12 mt-4 p-0 pl-4">
             <h3>Markus Loiola</h3>
-            <div class="d-flex">
-              <div className=''><i class="bx bxs-star mr-1" style={{color:"#CFA716", fontSize:"22px"}}></i></div>
-              <div className=''><i class="bx bxs-star mr-1" style={{color:"#CFA716", fontSize:"22px"}}></i></div>
-              <div className=''><i class="bx bxs-star mr-1" style={{color:"#CFA716", fontSize:"22px"}}></i></div>
-              <div className=''><i class="bx bxs-star mr-1" style={{color:"#CFA716", fontSize:"22px"}}></i></div>
-              <div className=''><i class="bx bxs-star" style={{color:"#D9D9D9",fontSize:"22px"}}></i></div>
+            <div className="d-flex">
+              <div className=''><i className="bx bxs-star mr-1" style={{color:"#CFA716", fontSize:"22px"}}></i></div>
+              <div className=''><i className="bx bxs-star mr-1" style={{color:"#CFA716", fontSize:"22px"}}></i></div>
+              <div className=''><i className="bx bxs-star mr-1" style={{color:"#CFA716", fontSize:"22px"}}></i></div>
+              <div className=''><i className="bx bxs-star mr-1" style={{color:"#CFA716", fontSize:"22px"}}></i></div>
+              <div className=''><i className="bx bxs-star" style={{color:"#D9D9D9",fontSize:"22px"}}></i></div>
             </div>
           </div>
-          <div class="mb-3 mt-3">
+          <div className="mb-3 mt-3">
             <h3>Contact Info</h3>
           </div>
-          <div class="d-flex col-md-12 p-0 align-items-center mb-3">
-            <i class="bx bxs-phone mr-2" style={{fontSize:"22px", color:"var(--text-main)"}}></i>
+          <div className="d-flex col-md-12 p-0 align-items-center mb-3">
+            <i className="bx bxs-phone mr-2" style={{fontSize:"22px", color:"var(--text-main)"}}></i>
             <span style={{fontSize:"22px", color:"var(--text-main)"}}>+41 79 123 45 67</span>
           </div>
-          <div class="d-flex col-md-12 p-0 align-items-center mb-3">
-            <i class="bx bxs-envelope mr-2" style={{fontSize:"22px",color:"var(--text-main)"}}></i>
+          <div className="d-flex col-md-12 p-0 align-items-center mb-3">
+            <i className="bx bxs-envelope mr-2" style={{fontSize:"22px",color:"var(--text-main)"}}></i>
             <span style={{fontSize:"22px", color:"var(--text-main)"}}>markus.loiola@gmail.com</span>
           </div>
-          <div class="d-flex col-md-12 p-0 align-items-center mb-3">
-            <i class="bx bxs-location-plus mr-2" style={{fontSize:"22px", color:"var(--text-main)"}}></i>
+          <div className="d-flex col-md-12 p-0 align-items-center mb-3">
+            <i className="bx bxs-location-plus mr-2" style={{fontSize:"22px", color:"var(--text-main)"}}></i>
             <span style={{fontSize:"22px", color:"var(--text-main)"}}>flughafenstarbe 13, 8000 Zürich.</span>
           </div>
-          <div class="d-flex justify-content-between col-md-12 p-0 mt-3">
-            <div class="col-md-11 p-0">
+          <div className="d-flex justify-content-between col-md-12 p-0 mt-3">
+            <div className="col-md-11 p-0">
               <h4>About Me</h4>
             </div>
-            <div class="col-md-1"><span style={{color:"#000"}} class="border-bottom">Help</span></div>
+            <div className="col-md-1"><span style={{color:"#000"}} className="border-bottom">Help</span></div>
           </div>
           <p>Surprise hiring managers with a great ‘About me’ section. We recommend you use this section to shows your unique skills, experience and career goals.</p>
-          <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="3" style={{height:"200px", border:"1px solid #000", resize:"none"}}></textarea>
-          <button type="submit" class="col-md-3 m-auto btn btn-primary border-0 pt-3 pb-3" style={{background:"var(--yellow)"}}><strong>Continue</strong> </button>
+          <textarea className="form-control mb-3" id="exampleFormControlTextarea1" rows="3" style={{height:"200px", border:"1px solid #000", resize:"none"}}></textarea>
+          <button type="submit" className="col-md-3 m-auto btn btn-primary border-0 pt-3 pb-3" style={{background:"var(--yellow)"}}><strong>Continue</strong> </button>
 </div>
 </>
   )

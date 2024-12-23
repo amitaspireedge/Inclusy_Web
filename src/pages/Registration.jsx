@@ -60,7 +60,7 @@ select{
           </div>
           <div className="col-md-3 text-right col-sm-12">
             <select name="menu" id="meun-items">
-              <option disabled selected>German</option>
+              <option disabled >German</option>
               <option >German</option>
               <option >German</option>
               <option >German</option>
@@ -87,7 +87,7 @@ select{
               	<div className="col-md-3 pe-3 p-0 col-sm-3 number">
               		 <div className=" text-right  form-control">
             <select name="menu" id="meun-items">
-              <option disabled selected>+44</option>
+              <option disabled >+44</option>
               <option >+445</option>
               <option >+0</option>
               <option >+655</option>

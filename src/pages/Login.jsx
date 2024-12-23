@@ -46,7 +46,7 @@ export default function Login() {
 			</div>
 			<div className="col-4 col-md-2 d-flex justify-end ">
 			 <select name="menu" id="meun-items" className=''>
-                <option disabled selected>Select Cource</option>
+                <option disabled >Select Cource</option>
                 <option value="html">German</option>
                 <option value="css">German</option>
                 <option value="js">German</option>

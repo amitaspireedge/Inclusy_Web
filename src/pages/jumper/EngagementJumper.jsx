@@ -34,12 +34,12 @@ export default function EngagementJumper() {
         </div>
 
         <div className="container" style={{marginTop:"150px"}} >
-        <ul class="nav nav-tabs" role="tablist">
-		<li class="nav-item  col-sm-12 col-md-1 text-center mb-3 ml-0" style={{marginLeft:"0"}}>
-		    <span class="nav-link active p-2 w-100 " data-toggle="tab" role="tab" style={{background: "var(--grey)"}}>Applied</span>
+        <ul className="nav nav-tabs" role="tablist">
+		<li className="nav-item  col-sm-12 col-md-1 text-center mb-3 ml-0" style={{marginLeft:"0"}}>
+		    <span className="nav-link active p-2 w-100 " data-toggle="tab" role="tab" style={{background: "var(--grey)"}}>Applied</span>
 		</li>
-		<li class="nav-item col-sm-12 col-md-2 text-center m-0">
-			<span class="nav-link p-2 w-100 " data-toggle="tab" role="tab" style={{background: "var(--grey)"}}>Unsuccessful Applications</span>
+		<li className="nav-item col-sm-12 col-md-2 text-center m-0">
+			<span className="nav-link p-2 w-100 " data-toggle="tab" role="tab" style={{background: "var(--grey)"}}>Unsuccessful Applications</span>
 		</li>
 	    </ul>
         </div>

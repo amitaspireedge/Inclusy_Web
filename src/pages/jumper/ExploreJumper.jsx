@@ -42,7 +42,7 @@ export default function ExploreJumper() {
             <Navbar/>
         </div>
 
-        <div class="container" style={{marginTop:"150px"}}>
+        <div className="container" style={{marginTop:"150px"}}>
         <div className="d-flex flex-wrap">
         <div className="col-md-9 col-12 p-0">
         <ul className="nav nav-tabs mb-3" role="tablist">

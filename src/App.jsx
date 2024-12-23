@@ -7,6 +7,7 @@ import ExploreJumper from './pages/jumper/ExploreJumper'
 import LandingPage from './pages/LandingPage'
 import EngagementJumper from './pages/jumper/EngagementJumper'
 import ProfileJumper from './pages/jumper/ProfileJumper'
+import SettingJumper from './pages/jumper/SettingJumper'
 export default function App() {
   return (
     <div>
@@ -17,7 +18,8 @@ export default function App() {
       {/* <JumperDocument/> */}
       {/* <ExploreJumper/>  */}
       {/* <EngagementJumper/> */}
-      <ProfileJumper/>
+      {/* <ProfileJumper/> */}
+      <SettingJumper/>
 
     </div>
   )

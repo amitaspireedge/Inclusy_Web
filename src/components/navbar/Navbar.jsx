@@ -39,7 +39,7 @@ export default function Navbar() {
             <div className="right-bar">
                <ul className="d-flex align-items-center">
               <li className="mr-3"><select name="menu" id="meun-items" className="bg-transparent border-0">
-              <option disabled="" selected="">German</option>
+              <option disabled="">German</option>
               <option value="html">German</option>
               <option value="css">German</option>
               <option value="js">German</option>

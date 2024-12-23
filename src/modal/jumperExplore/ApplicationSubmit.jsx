@@ -9,7 +9,7 @@ export default function ApplicationSubmit() {
         <div variant="link" className="col-md-12 p-0 m-0 w-full cursor-pointer"  aria-label="Close">
             <span aria-hidden="true" className=''>&times;</span>
         </div>
-        <div class="modal-body">
+        <div className="modal-body">
         <div className="p-3 w-full d-flex justify-content-center align-items-center">
         <i className="bi bi-check-circle-fill" style={{ fontSize: '60px', color: '#1dd1a1' }}></i> 
         </div>

@@ -24,29 +24,29 @@ export default function GermanKnoledge() {
           </Button>
         </div>
         <div className="col-md-12 text-center">
-        <div class="btn-group col-xs-12">
-					      <div class="select">
+        <div className="btn-group col-xs-12">
+					      <div className="select">
 					          <input type="checkbox" id="item_1"/>
-					          <label class="border rounded-2 rounded pl-3 pr-3 mr-3 pt-2 pb-2" style={{color:"#000",fontSize:"18px",marginRight:"20px"}} for="item_1">None</label>
+					          <label className="border rounded-2 rounded pl-3 pr-3 mr-3 pt-2 pb-2" style={{color:"#000",fontSize:"18px",marginRight:"20px"}} htmlFor="item_1">None</label>
 					      </div>
 					      
-					      <div class="select">
+					      <div className="select">
 					          <input type="checkbox" id="item_2"/>
-					          <label class="border rounded-2 rounded pl-3 pr-3 mr-3 pt-2 pb-2" style={{color:"#000",fontSize:"18px"}} for="item_2">Basic</label>
+					          <label className="border rounded-2 rounded pl-3 pr-3 mr-3 pt-2 pb-2" style={{color:"#000",fontSize:"18px"}} htmlFor="item_2">Basic</label>
 					      </div>
 					      
-					      <div class="select">
+					      <div className="select">
 					          <input type="checkbox" id="item_3"/>
-					          <label class="border rounded-2 rounded pl-3 pr-3 mr-3 pt-2 pb-2" style={{color:"#000",fontSize:"18px"}} for="item_3">Intermediate</label>
+					          <label className="border rounded-2 rounded pl-3 pr-3 mr-3 pt-2 pb-2" style={{color:"#000",fontSize:"18px"}} htmlFor="item_3">Intermediate</label>
 					      </div>
 					      
-					      <div class="select">
+					      <div className="select">
 					          <input type="checkbox" id="item_4"/>
-					          <label class="border rounded-2 rounded pl-3 pr-3 mr-3 pt-2 pb-2" style={{color:"#000",fontSize:"18px"}} for="item_4">Advanced</label>
+					          <label className="border rounded-2 rounded pl-3 pr-3 mr-3 pt-2 pb-2" style={{color:"#000",fontSize:"18px"}} htmlFor="item_4">Advanced</label>
 					      </div>
-					       <div class="select">
+					       <div className="select">
 					          <input type="checkbox" id="item_5"/>
-					          <label class="border rounded-2 rounded pl-3 pr-3 mr-3 pt-2 pb-2" style={{color:"#000",fontSize:"18px"}} for="item_4">Native</label>
+					          <label className="border rounded-2 rounded pl-3 pr-3 mr-3 pt-2 pb-2" style={{color:"#000",fontSize:"18px"}} htmlFor="item_4">Native</label>
 					      </div>
                         </div>
         </div>

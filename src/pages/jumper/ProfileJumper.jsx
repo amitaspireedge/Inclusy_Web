@@ -2,7 +2,13 @@ import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 import JumperInfo from '../../components/jumperinfo/JumperInfo'
-import ProfileDetails from '../../subpages/jumper/profileSubPages/ProfileDetails'
+import ProfileDetails from '../../subpages/jumper/profilesubpages/ProfileDetails'
+import JumperJobProfile from '../../subpages/jumper/profilesubpages/JumperJobProfile'
+import FooterBanner from '../../components/footer/FooterBanner'
+import Payslip from '../../subpages/jumper/profilesubpages/Payslip'
+import BankDetails from '../../subpages/jumper/profilesubpages/BankDetails'
+import SocialSecurity from '../../subpages/jumper/profilesubpages/SocialSecurity'
+import VideoRecording from '../../subpages/jumper/profilesubpages/VideoRecording'
 
 export default function ProfileJumper() {
   return (
@@ -85,22 +91,22 @@ content: "\f106";
         </div>
         
         <div className="sub-navbar" style={{marginTop:"150px"}}>
-        <div class="container mt-5">
-        <ul class="nav nav-tabs border-0 d-flex justify-content-center" role="tablist">
-		<li class="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2 m-0 ">
-			<span class="nav-link border w-100" data-toggle="tab" role="tab">Jumper Profile</span>
+        <div className="container mt-5">
+        <ul className="nav nav-tabs border-0 d-flex justify-content-center" role="tablist">
+		<li className="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2 m-0 ">
+			<span className="nav-link border w-100" data-toggle="tab" role="tab">Jumper Profile</span>
 		</li>
-		<li class="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2  ">
-			<span class="nav-link border w-100" data-toggle="tab" role="tab">Payslips</span>
+		<li className="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2  ">
+			<span className="nav-link border w-100" data-toggle="tab" role="tab">Payslips</span>
 		</li>
-        <li class="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2  ">
-			<span class="nav-link border w-100 " data-toggle="tab" role="tab">Bank Account details</span>
+        <li className="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2  ">
+			<span className="nav-link border w-100 " data-toggle="tab" role="tab">Bank Account details</span>
 		</li>
-		<li class="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2 m-0 ">
-			<span class="nav-link border w-100" data-toggle="tab" role="tab">Social Security</span>
+		<li className="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2 m-0 ">
+			<span className="nav-link border w-100" data-toggle="tab" role="tab">Social Security</span>
 		</li>
-        <li class="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2 m- ">
-			<span class="nav-link border w-100 " data-toggle="tab" role="tab">Video Recordings</span>
+        <li className="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2 m- ">
+			<span className="nav-link border w-100 " data-toggle="tab" role="tab">Video Recordings</span>
 		</li>	
 	    </ul>
         </div>
@@ -111,28 +117,16 @@ content: "\f106";
             <JumperInfo/>
         </div>
         <div className="profileSubPages col-12 col-md-6">
-            <ProfileDetails/>
+            {/* <ProfileDetails/> */}
+            {/* <JumperJobProfile/> */}
+            {/* <Payslip/> */}
+            {/* <BankDetails/> */}
+            {/* <SocialSecurity/> */}
+            <VideoRecording/>
         </div>
         </div>
 
-        <div class="banner pt-5 pb-5 mt-5" style={{background:"var(--text-main)"}}>
-        <div class="container">
-        <div class="d-flex col-md-9 m-auto align-items-center flex-wrap">
-        <div class="col-md-2 col-sm-12 mb-4">
-        <img src="images/mobile.png"/>
-        </div>
-        <div class="col-md-8 col-sm-12 mb-3">
-        <h4 style={{color:"#fff"}}>What are you waiting for?</h4>
-        <p style={{color:"#fff"}}>Get the Inclusy Jobs app</p>
-        </div>
-        <div class="col-md-2 col-sm-12">
-        <div class="d-block btn btn-primary border-0 pt-3 pb-3" style={{background: "#fff", color:"var(--text-main)"}}>
-        <strong>Get The App</strong>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
+        <FooterBanner/>
 
         <div className="footer">
             <Footer/>
