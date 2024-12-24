@@ -36,7 +36,7 @@ export default function Login() {
     <div className="card login-form border-0">
 	<div className="card-body border-0">
 		<div className="col-md-4 mb-4 m-auto">
-        <img src="images/logo.png" alt='' className="logo-img"/>
+        <img src="../images/logo.png" alt='' className="logo-img"/>
         </div>
 		<div className="d-flex align-items-center mt-5 justify-between ">
 			<div className="col-8 col-md-10 ">

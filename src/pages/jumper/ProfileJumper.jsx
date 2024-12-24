@@ -9,16 +9,18 @@ import Payslip from '../../subpages/jumper/profilesubpages/Payslip'
 import BankDetails from '../../subpages/jumper/profilesubpages/BankDetails'
 import SocialSecurity from '../../subpages/jumper/profilesubpages/SocialSecurity'
 import VideoRecording from '../../subpages/jumper/profilesubpages/VideoRecording'
+import { Link, Navigate, Outlet, Route, Routes, useNavigate } from 'react-router-dom'
 
 export default function ProfileJumper() {
-  return (
+   const Navigate = useNavigate()
 
 
 
-   
-   
-   
-   
+
+
+    return (
+
+  
 
 
 <>
@@ -93,20 +95,20 @@ content: "\f106";
         <div className="sub-navbar" style={{marginTop:"150px"}}>
         <div className="container mt-5">
         <ul className="nav nav-tabs border-0 d-flex justify-content-center" role="tablist">
-		<li className="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2 m-0 ">
+		<li className="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2 m-0 " onClick={()=>Navigate("/jumper/profile/job-profile")}>
 			<span className="nav-link border w-100" data-toggle="tab" role="tab">Jumper Profile</span>
 		</li>
-		<li className="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2  ">
+		<li className="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2  " onClick={()=>Navigate("/jumper/profile/payslip")}>
 			<span className="nav-link border w-100" data-toggle="tab" role="tab">Payslips</span>
 		</li>
         <li className="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2  ">
-			<span className="nav-link border w-100 " data-toggle="tab" role="tab">Bank Account details</span>
+			<span className="nav-link border w-100 " data-toggle="tab" role="tab" onClick={()=>Navigate("/jumper/profile/bank-details")}>Bank Account details</span>
 		</li>
 		<li className="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2 m-0 ">
-			<span className="nav-link border w-100" data-toggle="tab" role="tab">Social Security</span>
+			<span className="nav-link border w-100" data-toggle="tab" role="tab" onClick={()=>Navigate("/jumper/profile/social-security_personal-details")}>Social Security</span>
 		</li>
         <li className="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2 m- ">
-			<span className="nav-link border w-100 " data-toggle="tab" role="tab">Video Recordings</span>
+			<span className="nav-link border w-100 " data-toggle="tab" role="tab" onClick={()=>Navigate("/jumper/profile/video-recording")}>Video Recordings</span>
 		</li>	
 	    </ul>
         </div>
@@ -117,12 +119,15 @@ content: "\f106";
             <JumperInfo/>
         </div>
         <div className="profileSubPages col-12 col-md-6">
-            {/* <ProfileDetails/> */}
-            {/* <JumperJobProfile/> */}
-            {/* <Payslip/> */}
-            {/* <BankDetails/> */}
-            {/* <SocialSecurity/> */}
-            <VideoRecording/>
+            <Routes>
+                <Route path='/*' element={<ProfileDetails/>} />
+                <Route path='/job-profile' element={<JumperJobProfile/>} />
+                <Route path='/payslip' element={<Payslip/>} />
+                <Route path='/bank-details' element={<BankDetails/>} />
+                <Route path='/social-security_personal-details' element={<SocialSecurity/>} />
+                <Route path='/video-recording' element={<VideoRecording/>} />
+            </Routes>    
+            <Outlet/>        
         </div>
         </div>
 

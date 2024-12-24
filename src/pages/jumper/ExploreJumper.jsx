@@ -89,7 +89,7 @@ export default function ExploreJumper() {
       {/* <UploadCv/> */}
       {/* <GermanKnoledge/> */}
       {/* <Direction/> */}
-      <ApplicationSubmit/>
+      {/* <ApplicationSubmit/> */}
     </div>
     </>
   )

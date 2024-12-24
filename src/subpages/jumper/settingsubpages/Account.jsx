@@ -45,7 +45,7 @@ export default function Account() {
    </div>
 
 {/* <ChangePassword/> */}
-<LogOut/>
+{/* <LogOut/> */}
 
 </>
   )

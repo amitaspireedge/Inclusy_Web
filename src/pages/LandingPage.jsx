@@ -23,7 +23,7 @@ export default function LandingPage() {
 
     <div className="card login-form">
 	<div className="card-body">
-		    <div className="col-md-4 mb-4 m-auto pb-5 "><img src="images/logo.png" alt='' className="logo-img"/></div>
+		    <div className="col-md-4 mb-4 m-auto pb-5 "><img src="/images/logo.png" alt='' className="logo-img"/></div>
 	
 
 		    <div className="col-5 col-md-3 col-xs-6  m-auto pt-5 mb-3 text-center p-0 " style={{marginTop: "60px"}}>

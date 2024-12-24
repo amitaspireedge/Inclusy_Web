@@ -32,7 +32,7 @@ export default function JumperInfo() {
 
     <div className="">
           <div className="col-md-3 col-12 p-0">
-            <img src="images/profile.png" style={{borderRadius:"5px"}} className="w-100"/>
+            <img src="/images/profile.png" style={{borderRadius:"5px"}} className="w-100"/>
             <div className="position-absolute" style={{bottom:"-5px",left:"-5px"}}><i className="bx bx-pencil p-2 border-radius" style={{borderRadius:"8px", background:"#F4F3F5", color:"#8C1D4B", border:"5px solid #fff", fontSize:"18px"}}></i></div>
           </div>
           <div className="col-md-8 col-12 mt-4 p-0 pl-4">

@@ -53,7 +53,7 @@ select{
 
 <div className="card login-form create-account">
       <div className="card-body">
-        <div className="col-md-4 mb-4 m-auto"><img src="images/logo.png" alt='' className=" logo-img"/></div>
+        <div className="col-md-4 mb-4 m-auto"><img src="/images/logo.png" alt='' className=" logo-img"/></div>
         <div className="d-flex align-items-center mt-5 flex-wrap">
           <div className="col-md-9 text-left col-sm-12">
             <h3 className="card-title margin-off dark-text-color text-uppercase"><strong>Create Your Jumper Account</strong></h3>

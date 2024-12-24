@@ -4,8 +4,14 @@ import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 import AboutUs from '../../subpages/jumper/settingsubpages/AboutUs'
 import Legal from '../../subpages/jumper/settingsubpages/Legal'
+import { Outlet, Route, Routes, useNavigate } from 'react-router-dom'
 
 export default function SettingJumper() {
+  const Navigate = useNavigate()
+
+
+
+
   return (
 
 
@@ -46,13 +52,13 @@ export default function SettingJumper() {
     <div class="main-panel mt-5 pt-5 engagements">
     <div class="container mt-5">
     <ul class="nav nav-tabs border-0 d-flex justify-content-center" role="tablist">
-		<li class="nav-item nav-item col-sm-12 col-md-2 text-center mb-2 m-0 ">
+		<li class="nav-item nav-item col-12 col-md-2 text-center mb-2 m " onClick={()=>Navigate("/jumper/setting/account")}>
 			<span class="nav-link border w-100 active" data-toggle="tab" role="tab">Account</span>
 		</li>
-		<li class="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2 m-0 ">
+		<li class="nav-item nav-item  col-12 col-md-2 text-center mb-2 m" onClick={()=>Navigate("/jumper/setting/about-us")}>
 			<span class="nav-link border w-100" data-toggle="tab" role="tab">About Us</span>
 		</li>
-        <li class="nav-item nav-item  col-sm-12 col-md-2 text-center mb-2 m-0 ">
+        <li class="nav-item nav-item  col-12 col-md-2 text-center mb-2 m " onClick={()=>Navigate("/jumper/setting/legal")}>
 			<span class="nav-link border w-100 " data-toggle="tab" role="tab">Legal</span>
 		</li>
 	</ul>
@@ -63,9 +69,14 @@ export default function SettingJumper() {
     <div class="mt-5">
 	<div class="col-xl-12 col-lg-12 p-0 ">
 	<div class="tab-content col-md-8 m-auto">
-    {/* <Account/> */}
-    {/* <AboutUs/> */}
-    <Legal/>
+    
+    <Routes>
+      <Route path='/account' element={<Account/>} />
+      <Route path='/about-us' element={<AboutUs/>}/>
+      <Route path='/legal' element={<Legal/>}/>
+      <Route path='/*' element={<Account/>}/>
+    </Routes>
+    <Outlet/>
 
 
 

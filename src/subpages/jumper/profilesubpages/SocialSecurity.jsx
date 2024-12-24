@@ -10,7 +10,7 @@ export default function SocialSecurity() {
   <div className=" p-3">
   <h5 style={{color:"var(--text-main)"}}>Social security</h5>
   <div className="text-center mt-2 mb-5 rounded border rounded-2 p-3" style={{borderColor:"#000"}}>
-    <div className="col-md-1 m-auto"><img src="images/security.png"/></div>
+    <div className="col-md-1 m-auto"><img src="/images/security.png"/></div>
     <h3 className="mt-3 mb-3">Add your social security details</h3>
     <p style={{color:"var(--text-main)"}}>This helps us make sure you are taxed correctly and accrue the right pension.</p>
     <div className="col-md-4 m-auto">
@@ -22,7 +22,7 @@ export default function SocialSecurity() {
   <div className="p-3 ">
   <h5 style={{color:"var(--text-main)"}}>Personal Details</h5>
   <div className="text-center mt-2 mb-5 rounded rounded-2 border p-3" style={{borderColor:"#000"}}>
-    <div className="col-md-1 m-auto"><div className="col-md-1 m-auto"><img src="images/details.png"/></div></div>
+    <div className="col-md-1 m-auto"><div className="col-md-1 m-auto"><img src="/images/details.png"/></div></div>
     <h3 className="mt-3 mb-3">Add Personal details</h3>
     <p style={{color:"var(--text-main)"}}>This helps us make sure you are taxed correctly and accrue the right pension.</p>
     <div className="col-md-4 m-auto">
@@ -37,7 +37,7 @@ export default function SocialSecurity() {
 
 
     {/* <AddSocialSecurity/> */}
-    <AddPersonalDetails/>
+    {/* <AddPersonalDetails/> */}
     </>
   )
 }

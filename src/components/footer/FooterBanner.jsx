@@ -6,7 +6,7 @@ export default function FooterBanner() {
         <div className="container">
         <div className="d-flex col-md-9 m-auto align-items-center flex-wrap">
         <div className="col-md-2 col-sm-12 mb-4">
-        <img src="images/mobile.png"/>
+        <img src="/images/mobile.png"/>
         </div>
         <div className="col-md-8 col-sm-12 mb-3">
         <h4 style={{color:"#fff"}}>What are you waiting for?</h4>

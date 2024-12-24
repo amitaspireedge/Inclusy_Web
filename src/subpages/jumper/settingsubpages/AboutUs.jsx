@@ -20,7 +20,7 @@ export default function AboutUs() {
     <div className="mt-5 text-center col-md-12 pt-5">
       <h4 className="mt-2">Follow Us On</h4>
       <div className="d-flex justify-content-center align-items-center mt-5">
-          <img src="images/twitter.png" className="mr-3" style={{maxWidth:"32px"}}/>
+          <img src="/images/twitter.png" className="mr-3" style={{maxWidth:"32px"}}/>
          <i className='bx bxl-facebook-circle mr-3' style={{fontSize:"40px",color:"var(--till)"}}></i>
          <i className='bx bxl-linkedin-square mr-3' style={{fontSize:"40px",color:"var(--till)"}}></i>
          <i className='bx bxl-instagram'style={{fontSize:"40px",color:"var(--till)"}} ></i>

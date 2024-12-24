@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -8,7 +9,7 @@ export default function Navbar() {
         <div className="col-12">
           <nav className="navbar navbar-expand-md navbar-light">
           
-            <span className="navbar-brand"><img src="images/logo.png" alt=""/></span>  
+            <span className="navbar-brand"><img src="/images/logo.png" alt=""/></span>  
             
             <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -16,22 +17,31 @@ export default function Navbar() {
             
             <div className="collapse navbar-collapse text-center align-items-center" id="navbarSupportedContent">
               <ul className="navbar-nav  ">
-                <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                <NavLink to='/jumper/explore' className={({ isActive }) => isActive ? "nav-item pl-4 pl-md-0 ml-0 ml-md-4 text-dark active" : "nav-item pl-4 pl-md-0 ml-0 ml-md-4 text-dark"}>
+                <li>
                   <span className="nav-link dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Explore</span>
-              </li>
-               
-                <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                </li>
+                </NavLink>
+                <NavLink to='/jumper/engagement' className={({ isActive }) => isActive ? "nav-item pl-4 pl-md-0 ml-0 ml-md-4 text-dark active" : "nav-item pl-4 pl-md-0 ml-0 ml-md-4 text-dark"}>
+                <li>
                   <a className="nav-link dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Engagements</a>
                 </li>
-                <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                  <span className="nav-link" >Profile</span>
+                </NavLink>
+                <NavLink to='/jumper/profile' className={({ isActive }) => isActive ? "nav-item pl-4 pl-md-0 ml-0 ml-md-4 text-dark active" : "nav-item pl-4 pl-md-0 ml-0 ml-md-4 text-dark"}>
+                <li>
+                  <span className="nav-link dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false" >Profile</span>
                 </li>
-                <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                  <span className="nav-link" >Settings</span>
+                </NavLink>
+                <NavLink to='/jumper/setting/account' className={({ isActive }) => isActive ? "nav-item pl-4 pl-md-0 ml-0 ml-md-4 active text-dark" : "nav-item pl-4 pl-md-0 ml-0 ml-md-4 text-dark"}>
+                <li>
+                  <span className="nav-link dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false" >Settings</span>
                 </li>
-                <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                  <span className="nav-link" >Feedbacks</span>
+                </NavLink>
+                <NavLink to='' className={({ isActive }) => isActive ? "nav-item pl-4 pl-md-0 ml-0 ml-md-4 text-dark" : "nav-item pl-4 pl-md-0 ml-0 ml-md-4 text-dark"}>
+                <li>
+                  <span className="nav-link dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false" >Feedbacks</span>
                 </li>
+                </NavLink>
                
               </ul>
             </div>
